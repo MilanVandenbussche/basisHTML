@@ -1,0 +1,40 @@
+#cerclebrugge{
+    background: #2d9f3a;
+}
+article{
+    background:white;
+    padding: 0 0 5px 0;
+}
+#jupilerproleague{
+    background: #ec7412;
+}
+
+#cerclebrugge{
+    position: relative;
+}
+
+#logocercle{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+#clubbrugge{
+    position: relative;
+}
+
+#logoclub{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
+
+#anderlecht{
+    position: relative;
+}
+
+#logoanderlecht{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
