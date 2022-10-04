@@ -3,15 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Cursus basis html">
     <meta name="keywords" content="html, css, tags">
-    <meta name="author" content="Tom Vanhoutte">
+    <meta name="author" content="Milan Vandenbussche">
     <link rel="stylesheet" href="./css/flexbox.css">
     <title>Flexbox</title>
 </head>
 <body>
-
+<main>
+    <section>
+        <h1 class="hidden">Flexbox</h1>
+        <section id="direndis">
+            <header>
+                <h2>Flexbox direction en display</h2>
+            </header>
+            <article id="flrow">
+                <header>
+                    <h3>Flexbox row</h3>
+                </header>
+                <div id="flexboxrow" class="d-flex">
+                    <div class="blok blok1">blok 1</div>
+                    <div class="blok blok2">blok 2</div>
+                    <div class="blok blok3">blok 3</div>
+                </div>
+            </article>
+            <article id="flcolumn">
+                <header>
+                    <h3>Flexbox column</h3>
+                </header>
+                <div id="flexboxcolumn" class="d-flex flex-column">
+                    <div class="blok blok1">blok 1</div>
+                    <div class="blok blok2">blok 2</div>
+                    <div class="blok blok3">blok 3</div>
+                </div>
+            </article>
+        </section>
+        <section id="justifycontent">
+            <header>
+                <h2>Justify Content</h2>
+            </header>
+            <article id="justifystart">
+                <header>
+                    <h3>Justify Content Start</h3>
+                </header>
+                <div class="d-flex justify-content-start">
+                    <div class="blok blok1">blok 1</div>
+                    <div class="blok blok2">blok 2</div>
+                    <div class="blok blok3">blok 3</div>
+                </div>
+            </article>
+            <article id="justifyend">
+                <header>
+                    <h3>Justify Content End</h3>
+                </header>
+                <div class="d-flex justify-content-end">
+                    <div class="blok blok1">blok 1</div>
+                    <div class="blok blok2">blok 2</div>
+                    <div class="blok blok3">blok 3</div>
+                </div>
+            </article>
+            <article id="justifycenter">
+                <header>
+                    <h3>Justify Content Center</h3>
+                </header>
+                <div class="d-flex justify-content-center">
+                    <div class="blok blok1">blok 1</div>
+                    <div class="blok blok2">blok 2</div>
+                    <div class="blok blok3">blok 3</div>
+                </div>
+            </article>
+            <article id="justifybetween">
+                <header>
+                    <h3>Justify Content Between</h3>
+                </header>
+                <div class="d-flex justify-content-between">
+                    <div class="blok blok1">blok 1</div>
+                    <div class="blok blok2">blok 2</div>
+                    <div class="blok blok3">blok 3</div>
+                </div>
+            </article>
+            <article id="justifyaround">
+                <header>
+                    <h3>Justify Content Around</h3>
+                </header>
+                <div class="d-flex justify-content-around">
+                    <div class="blok blok1">blok 1</div>
+                    <div class="blok blok2">blok 2</div>
+                    <div class="blok blok3">blok 3</div>
+                </div>
+            </article>
+            <article id="justifyevenly">
+                <header>
+                    <h3>Justify Content Evenly</h3>
+                </header>
+                <div class="d-flex justify-content-evenly">
+                    <div class="blok blok1">blok 1</div>
+                    <div class="blok blok2">blok 2</div>
+                    <div class="blok blok3">blok 3</div>
+                </div>
+            </article>
+        </section>
+        <section id="alignitems">
+            <header>
+                <h2>Align Items</h2>
+            </header>
+            <article id="alignitemsstart">
+                <header>
+                    <h3>Align Items Start</h3>
+                </header>
+                <div class="d-flex align-items-start" style="height:100px;background:#77d5ff">
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                </div>
+            </article>
+            <article id="alignitemsend">
+                <header>
+                    <h3>Align Items End</h3>
+                </header>
+                <div class="d-flex align-items-end" style="height:100px;background:#77d5ff">
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                </div>
+            </article>
+            <article id="alignitemscenter">
+                <header>
+                    <h3>Align Items Center</h3>
+                </header>
+                <div class="d-flex align-items-center" style="height:100px;background:#77d5ff">
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                </div>
+            </article>
+            <article id="alignitemsbaseline">
+                <header>
+                    <h3>Align Items Baseline</h3>
+                </header>
+                <div class="d-flex align-items-baseline" style="height:100px;background:#77d5ff">
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                </div>
+            </article>
+            <article id="alignitemsstretch">
+                <header>
+                    <h3>Align Items Stretch</h3>
+                </header>
+                <div class="d-flex align-items-stretch" style="height:100px;background:#77d5ff">
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                    <div class="flexcolor">Flex item</div>
+                </div>
+            </article>
+        </section>
+    </section>
+</main>
 </body>
 </html>

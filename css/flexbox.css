@@ -1,0 +1,80 @@
+/*bootstrap flex classes*/
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+/*Eigen CSS*/
+.hidden {
+    display: none;
+}
+
+.blok {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px 10px;
+}
+
+.blok1 {
+    background: #ffa94b;
+}
+
+.blok2 {
+    background: #77d5ff;
+}
+
+.blok3 {
+    background: #ff93f8;
+}
+
+.flexcolor {
+    background: #ffa94b;
+}
